@@ -29,7 +29,7 @@ The dataset (derived from WikiArt) was processed using a custom script to ensure
 | **Data Augmentation** | Random Flip, Rotation, Zoom, and Contrast applied on the input layer. |
 | **Optimizer** | Adam ($\text{lr} = 1 \times 10^{-5}$) with $\text{clipnorm}=1.0$ (Gradient Clipping). |
 | **Optimization** | Utilizes **Mixed Precision** and **Mirrored Strategy** for accelerated multi-GPU training. |
-| **Regularization** | **Early Stopping** on $\text{val\_loss}$ ($\text{patience}=10$). |
+
 
 ---
 
